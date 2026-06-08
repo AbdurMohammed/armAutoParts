@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARM Auto Parts Customer Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ARM Auto Parts</h1>
+    </header>
+    <nav>
+        <a href="main.html">Home</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="contact.html">Contact</a>
+        <a href="customer.html">Customer Information</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Customer Information</h2>
+            <form>
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" name="customerName">
+
+                <label for="customerPhone">Phone Number:</label>
+                <input type="tel" id="customerPhone" name="customerPhone">
+
+                <label for="customerEmail">Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail">
+
+                <label for="vehicleType">Vehicle Type:</label>
+                <input list="vehicleList" id="vehicleType" name="vehicleType">
+                <datalist id="vehicleList">
+                    <option value="Honda">
+                    <option value="Toyota">
+                </datalist>
+
+                <label for="accountPassword">Password:</label>
+                <input type="password" id="accountPassword" name="accountPassword">
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Abdur Mohammed Inc.</p>
+    </footer>
+</body>
+</html>
