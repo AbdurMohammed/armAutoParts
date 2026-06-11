@@ -17,7 +17,7 @@
     <main>
         <section>
             <h2>Customer Information</h2>
-            <form>
+            <form id="customerForm">
                 <label for="customerName">Customer Name:</label>
                 <input type="text" id="customerName" name="customerName">
 
@@ -37,12 +37,14 @@
                 <label for="accountPassword">Password:</label>
                 <input type="password" id="accountPassword" name="accountPassword">
 
-                <input type="submit" value="Submit">
+                <input type="submit" id="customerSubmit" value="Submit">
+                <span id="submitMessage"></span>
             </form>
         </section>
     </main>
     <footer>
         <p>Abdur Mohammed Inc.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
